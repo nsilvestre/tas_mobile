@@ -310,7 +310,7 @@ loginPage.swipeToLogin();
 
 # Features, steps and page objects relation
 
-Each ‘**.feature file’** **(src/test/features/) **groups scenarios that are related and test one particular feature. For instance, `AddItemToCart.feature` has the following scenarios:
+Each ‘**.feature file’** **(src/test/features/)** groups scenarios that are related and test one particular feature. For instance, `AddItemToCart.feature` has the following scenarios:
 
 
 
@@ -319,7 +319,7 @@ Each ‘**.feature file’** **(src/test/features/) **groups scenarios that are 
 *   Add item from re-order
 *   Add item from details screen but accessing through re-order
 
-On the other hand, each ‘**steps definitition file’** **(src/test/steps/) **groups the steps based on the following criterias:
+On the other hand, each ‘**steps definitition file’** **(src/test/steps/)** groups the steps based on the following criterias:
 
 
 
@@ -328,7 +328,7 @@ On the other hand, each ‘**steps definitition file’** **(src/test/steps/) **
 *   One particular View type, the alerts:` AlertsSteps.java`
 *   Steps that apply in more than one screen:` EatsaUtilsSteps`
 
-Per each ‘**steps definition class’** exists a ‘**page object class’ (src/test/pages/) **that implement each steps. For instance:
+Per each ‘**steps definition class’** exists a ‘**page object class’ (src/test/pages/)** that implement each steps. For instance:
 
 `ItemDetailsSteps.java` has two steps: 
 
@@ -361,7 +361,7 @@ getWaitDriver().until(ExpectedConditions.elementToBeClickable(MobileBy.iOSNsPred
 ```
 
 
-So to sum up, **feature** files contains scenarios that are related to one feature. Each scenario has **steps** that are executed in different screens. Therefore, the** steps **of a scenario, are implemented in different **step definition** classes. Each **step definition** class corresponds to one **page **class (I.E: `CheckOutSteps.java -> CheckOutPage.java`).
+So to sum up, **feature** files contains scenarios that are related to one feature. Each scenario has **steps** that are executed in different screens. Therefore, the **steps** of a scenario, are implemented in different **step definition** classes. Each **step definition** class corresponds to one **page** class (I.E: `CheckOutSteps.java -> CheckOutPage.java`).
 
 
 # Feature and Scenario creation
@@ -371,14 +371,14 @@ So to sum up, **feature** files contains scenarios that are related to one featu
 
 ## Feature
 
-Each feature needs to start with the **Feature **keyword, follow by its name. The feature, is going to be identify in the reports by this name. Finally, after this line and before the first scenario, there’s a place for the description of the user story.
+Each feature needs to start with the **Feature** keyword, follow by its name. The feature, is going to be identify in the reports by this name. Finally, after this line and before the first scenario, there’s a place for the description of the user story.
 
 
 ## Scenario
 
-Each scenario must start with the **Scenario Outline **keyword followed by a brief scenario description. **Scenario Outline **keyword works together with the **Examples **keywords, which is a table appended at the end of the scenario. 
+Each scenario must start with the **Scenario Outline** keyword followed by a brief scenario description. **Scenario Outline** keyword works together with the **Examples** keywords, which is a table appended at the end of the scenario. 
 
-The **Scenario Outline** keyword can be used to run the same Scenario multiple times, with different combinations of values. Those values are included as variables in the steps (_<config> and <partner> for below example_) and their values are specified in the Examples data table. The **Scenario Outline **will run one time per each row in the table passing the data of the row to the steps. In this way we can execute the same scenario multiple times just adding a new rows to the Examples table.
+The **Scenario Outline** keyword can be used to run the same Scenario multiple times, with different combinations of values. Those values are included as variables in the steps (_<config> and <partner> for below example_) and their values are specified in the Examples data table. The **Scenario Outline** will run one time per each row in the table passing the data of the row to the steps. In this way we can execute the same scenario multiple times just adding a new rows to the Examples table.
 
 
 ```
@@ -461,7 +461,7 @@ Examples:
 
 **Path:** Automation-UITests/src/test/java/com.company.test/steps
 
-Each **step** class, in its constructor, needs to get the **driver** from the **context**, and create the **page **object that corresponds to this **Steps** class (_CheckOutSteps corresponds to CheckOutPage_):
+Each **step** class, in its constructor, needs to get the **driver** from the **context**, and create the **page** object that corresponds to this **Steps** class (_CheckOutSteps corresponds to CheckOutPage_):
 
 
 ```
