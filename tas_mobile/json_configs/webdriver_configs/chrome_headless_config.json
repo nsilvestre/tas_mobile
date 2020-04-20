@@ -1,9 +1,0 @@
-{
-  "browserName": "chrome",
-  "goog:chromeOptions": {
-    "args": [
-      "--headless"
-    ]
-
-  }
-}

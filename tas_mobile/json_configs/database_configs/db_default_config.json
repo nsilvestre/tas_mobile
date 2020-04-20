@@ -1,6 +1,0 @@
-{
-  "driverClass": "com.mysql.jdbc.Driver",
-  "connectionUrl": "jdbc:mysql://localhost:3306/test",
-  "username": "root",
-  "password": "12345678"
-}
