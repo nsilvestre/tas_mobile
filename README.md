@@ -1,6 +1,6 @@
-# TAS (Test Automation Solution)
+# TAS Mobile (Test Automation Solution)
 
-This framework has been developed for internal use on Belatrix projects and adapted to EATSA necesites.
+Tas Mobile is an Automation framework for Mobile applications
 
 It uses **Java** as main language, **Cucumber** (_https://cucumber.io/_) and **Appium** (_http://appium.io_) for scenarios creation and Mobile testing and **RestAssured** (_http://rest-assured.io_) for API testing/actions. 
 
