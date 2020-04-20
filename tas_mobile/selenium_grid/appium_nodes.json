@@ -1,0 +1,73 @@
+{
+  "capabilities": [
+    {
+      "browserName": "Nexus5",
+      "version": "7.0",
+      "maxInstances": 1,
+      "platform": "ANDROID"
+    },
+     {
+      "browserName": "Nexus6",
+      "version": "7.1.1",
+      "maxInstances": 1,
+      "platform": "ANDROID"
+    },
+    {
+      "browserName": "chrome",
+      "version": "7.1.1",
+      "maxInstances": 1,
+      "platform": "ANDROID"
+    },
+    {
+      "browserName": "NexusOne",
+      "version": "7.0",
+      "maxInstances": 1,
+      "platform": "ANDROID"
+    },
+    {
+      "browserName": "Motorola Moto G5",
+      "version": "7.0",
+      "maxInstances": 1,
+      "platform": "ANDROID"
+    },
+    {
+      "browserName": "Sony Sony Xperia Z5",
+      "version": "7.1.1",
+      "maxInstances": 1,
+      "platform": "ANDROID"
+    },
+    {
+      "browserName": "iPhone 6s Plus",
+      "version": "11.2",
+      "maxInstances": 1,
+      "platform": "iOS"
+    },
+    {
+      "browserName": "safari",
+      "version": "11.2",
+      "maxInstances": 1,
+      "platform": "iOS"
+    },
+    {
+      "browserName": "iPhone 6s",
+      "version": "11.2",
+      "maxInstances": 1,
+      "platform": "iOS"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "url": "http://127.0.0.1:4723/wd/hub",
+  "host": "127.0.0.1",
+  "port": 4723,
+  "maxSession": 5,
+  "register": true,
+  "registerCycle": 5000,
+  "role": "node",
+  "hub": "http://127.0.0.1:4444",
+  "hubPort": 4444,
+  "hubHost": "127.0.0.1",
+  "debug": false,
+  "servlets": [],
+  "withoutServlets": [],
+  "custom": {}
+}

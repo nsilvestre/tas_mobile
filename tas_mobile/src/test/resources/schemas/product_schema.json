@@ -1,0 +1,61 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "$id": "http://example.com/example.json",
+  "additionalProperties": false,
+  "required": [
+    "_id",
+    "id",
+    "name",
+    "price",
+    "stock",
+    "length",
+    "width",
+    "height"
+  ],
+  "properties": {
+    "_id": {
+      "type": "object",
+      "$id": "/properties/_id",
+      "additionalProperties": false,
+      "required": [
+        "$oid"
+      ],
+      "properties": {
+        "$oid": {
+          "type": "string",
+          "$id": "/properties/_id/properties/$oid"
+        }
+      }
+    },
+    "id": {
+      "type": "integer",
+      "$id": "/properties/id"
+    },
+    "name": {
+      "type": "string",
+      "$id": "/properties/name"
+    },
+    "price": {
+      "type": "integer",
+      "$id": "/properties/price"
+    },
+    "stock": {
+      "type": "integer",
+      "$id": "/properties/stock"
+    },
+    "length": {
+      "type": "integer",
+      "$id": "/properties/length"
+    },
+    "width": {
+      "type": "integer",
+      "$id": "/properties/width"
+    },
+    "height": {
+      "type": "integer",
+      "$id": "/properties/height"
+    }
+  }
+}

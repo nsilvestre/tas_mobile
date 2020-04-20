@@ -1,0 +1,9 @@
+{
+  "browserName": "firefox",
+  "marionette": "True",
+  "moz:firefoxOptions": {
+    "prefs": {
+      "dom.webnotifications.requireinteraction.enabled": "False"
+    }
+  }
+}

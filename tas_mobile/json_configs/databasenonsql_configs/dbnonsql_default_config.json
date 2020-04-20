@@ -1,0 +1,8 @@
+{
+  "host": "localhost",
+  "port": 27017,
+  "dbname": "local",
+  "collection": "products",
+  "DEBUG.MONGO": true,
+  "DB.TRACE": true
+}

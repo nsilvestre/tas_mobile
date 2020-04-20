@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jayway.restassured:json-path:2.9.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/json-path/2.9.1-SNAPSHOT/json-path-2.9.1-20160521.080500-13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/json-path/2.9.1-SNAPSHOT/json-path-2.9.1-20160521.080500-13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/json-path/2.9.1-SNAPSHOT/json-path-2.9.1-20160521.080500-13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

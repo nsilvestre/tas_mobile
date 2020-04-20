@@ -1,0 +1,6 @@
+{
+  "automationName": "UiAutomator2",
+  "platformName": "Android",
+  "deviceName": "Nexus 6",
+  "avd": "Nexus_6_API_25"
+}

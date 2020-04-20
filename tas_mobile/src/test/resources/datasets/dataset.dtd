@@ -1,0 +1,14 @@
+<!ELEMENT dataset (
+    product*)>
+
+<!ELEMENT product EMPTY>
+<!ATTLIST product
+    id CDATA #REQUIRED
+    name CDATA #IMPLIED
+    price CDATA #IMPLIED
+    stock CDATA #IMPLIED
+    length CDATA #IMPLIED
+    width CDATA #IMPLIED
+    height CDATA #IMPLIED
+>
+

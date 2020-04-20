@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp" packages="">
+    <Properties>
+        <Property name="logPath">log</Property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="fileLogger" fileName="${logPath}/Log.log" filePattern="${logPath}/${date:yyyy-MM}/Log-%d{yyyy-MM-dd-HH:mm:ss.SSS}-%i.log">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} - %n"></PatternLayout>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="trace">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="fileLogger"/>
+        </Root>
+    </Loggers>
+</Configuration>

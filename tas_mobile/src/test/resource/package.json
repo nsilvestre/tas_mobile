@@ -1,0 +1,15 @@
+{
+  "name": "mobile-appium-tests",
+  "private": true,
+  "license": "",
+  "version": "0.0.0",
+  "description": "Download appium for automated tests",
+  "devDependencies": {
+    "appium": "1.6.5",
+    "ios-deploy":"1.9.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "pretest": "npm install"
+  }
+}

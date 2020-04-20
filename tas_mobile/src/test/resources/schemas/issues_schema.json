@@ -1,0 +1,166 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "id": "http://example.com/example.json",
+  "additionalProperties": false,
+  "required": [
+    "issue"
+  ],
+  "properties": {
+    "issue": {
+      "type": "object",
+      "id": "/properties/issue",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "project",
+        "tracker",
+        "status",
+        "priority",
+        "author",
+        "subject",
+        "description",
+        "start_date",
+        "done_ratio",
+        "spent_hours",
+        "total_spent_hours",
+        "created_on",
+        "updated_on"
+      ],
+      "properties": {
+        "id": {
+          "type": "number",
+          "id": "/properties/issue/properties/id"
+        },
+        "project": {
+          "type": "object",
+          "id": "/properties/issue/properties/project",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "number",
+              "id": "/properties/issue/properties/project/properties/id"
+            },
+            "name": {
+              "type": "string",
+              "id": "/properties/issue/properties/project/properties/name"
+            }
+          }
+        },
+        "tracker": {
+          "type": "object",
+          "id": "/properties/issue/properties/tracker",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "number",
+              "id": "/properties/issue/properties/tracker/properties/id"
+            },
+            "name": {
+              "type": "string",
+              "id": "/properties/issue/properties/tracker/properties/name"
+            }
+          }
+        },
+        "status": {
+          "type": "object",
+          "id": "/properties/issue/properties/status",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "number",
+              "id": "/properties/issue/properties/status/properties/id"
+            },
+            "name": {
+              "type": "string",
+              "id": "/properties/issue/properties/status/properties/name"
+            }
+          }
+        },
+        "priority": {
+          "type": "object",
+          "id": "/properties/issue/properties/priority",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "number",
+              "id": "/properties/issue/properties/priority/properties/id"
+            },
+            "name": {
+              "type": "string",
+              "id": "/properties/issue/properties/priority/properties/name"
+            }
+          }
+        },
+        "author": {
+          "type": "object",
+          "id": "/properties/issue/properties/author",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name"
+          ],
+          "properties": {
+            "id": {
+              "type": "number",
+              "id": "/properties/issue/properties/author/properties/id"
+            },
+            "name": {
+              "type": "string",
+              "id": "/properties/issue/properties/author/properties/name"
+            }
+          }
+        },
+        "subject": {
+          "type": "string",
+          "id": "/properties/issue/properties/subject"
+        },
+        "description": {
+          "type": "string",
+          "id": "/properties/issue/properties/description"
+        },
+        "start_date": {
+          "type": "string",
+          "id": "/properties/issue/properties/start_date"
+        },
+        "done_ratio": {
+          "type": "number",
+          "id": "/properties/issue/properties/done_ratio"
+        },
+        "spent_hours": {
+          "type": "number",
+          "id": "/properties/issue/properties/spent_hours"
+        },
+        "total_spent_hours": {
+          "type": "number",
+          "id": "/properties/issue/properties/total_spent_hours"
+        },
+        "created_on": {
+          "type": "string",
+          "id": "/properties/issue/properties/created_on"
+        },
+        "updated_on": {
+          "type": "string",
+          "id": "/properties/issue/properties/updated_on"
+        }
+      }
+    }
+  }
+}

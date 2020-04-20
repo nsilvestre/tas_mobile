@@ -1,0 +1,10 @@
+{
+  "automationName": "XCUITest",
+  "platformName": "iOS",
+  "platformVersion": "11.2",
+  "deviceName": "iPhone 7 Plus",
+  "udid": "62b669a0a41dc59465fa04f96a07da8bf7eb7699",
+  "noReset": true,
+  "useNewWDA": true,
+  "newCommandTimeout": 180
+}

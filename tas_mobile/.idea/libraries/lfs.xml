@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lfs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lfs/selenium-server-standalone-3.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lfs/selenium-server-standalone-3.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

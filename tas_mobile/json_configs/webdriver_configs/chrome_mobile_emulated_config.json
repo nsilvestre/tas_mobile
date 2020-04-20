@@ -1,0 +1,10 @@
+{
+  "browserName": "chrome",
+  "platform": "WIN",
+  "platformVersion": "10.13.6",
+  "goog:chromeOptions": {
+    "mobileEmulation": {
+      "deviceName": "iPhone 6"
+    }
+  }
+}

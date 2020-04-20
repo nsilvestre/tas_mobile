@@ -1,0 +1,10 @@
+{
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--disable-notifications",
+      "--start-maximized"
+    ]
+
+  }
+}

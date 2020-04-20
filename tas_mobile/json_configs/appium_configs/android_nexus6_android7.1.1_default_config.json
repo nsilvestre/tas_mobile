@@ -1,0 +1,8 @@
+{
+  "automationName": "UiAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.1",
+  "deviceName": "Nexus 6",
+  "newCommandTimeout": 6000,
+  "avd": "Nexus_6_API_25"
+}
